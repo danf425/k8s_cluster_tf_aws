@@ -5,11 +5,12 @@
 "aws_image_user" = "centos"   //centos, ubuntu, ec2-user, etc.
 "tag_customer" = "test"
 "tag_project" = "danf"
+"tag_ttl" = "10"
 "tag_name" = "danf"
 "tag_dept" = "sales"
-"tag_contact" = "dmontanez@chef.io"
-"tag_application" = "cicd"
-"count" = "1"
+"tag_contact" = "danf@chef.io"
+"tag_application" = "test"
+"count" = "3"
 
 /////If necessary://////////////////////
 //"origin"="danf"

@@ -23,7 +23,7 @@ variable "aws_image_user" {
   default = "centos"
 }
 variable "server_instance_type" {
-  default = "t2.micro"
+  default = "t2.medium"
 }
 variable "count" { 
   default = "1" 
@@ -44,13 +44,7 @@ variable "tag_contact" {}
 variable "tag_application" {}
 
 variable "tag_ttl" {
-  default = 4
+  default = 48
 }
 
 
-////////////////////////////////////
-/////Habitat Specific Variables/////
-variable "channel" { default = "stable" }
-variable "dev_channel" { default = "unstable" }
-variable "prod_channel" { default = "stable" }
-variable "origin" { default = "danf"}

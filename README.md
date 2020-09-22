@@ -6,11 +6,11 @@
 1. Clone this repo (where project1 is your project name):  
   - `git clone git@github.com:danf425/terraform_skeleton.git project1`  
   - `cd project1`  
-2. Change all instances of PROJECTNAME TO your own project name:  
-  - `find ./ -type f -exec sed -i '' -e 's/PROJECTNAME/project1/g' {} \;`  
-3. Change Project_Name to what you want to name the instance:  
-  - `find ./ -type f -exec sed -i '' -e 's/Project_Name/project_1/g' {} \;`  
-4. Change projectname.tf name to match Project_Name above:  
+2. Change all instances of k8s TO your own project name:  
+  - `find ./ -type f -exec sed -i '' -e 's/k8s/project1/g' {} \;`  
+3. Change k8s_cluster to what you want to name the instance:  
+  - `find ./ -type f -exec sed -i '' -e 's/k8s_cluster/project_1/g' {} \;`  
+4. Change projectname.tf name to match k8s_cluster above:  
    - `mv terraform/aws/projectname.tf terraform/aws/project1.tf`  
   
 ##### AWS TERRAFORM:
